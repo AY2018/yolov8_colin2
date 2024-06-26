@@ -1,0 +1,7 @@
+train: /Users/ayoub/Desktop/YOLOV8_Colin/dataset/images/train
+val: /Users/ayoub/Desktop/YOLOV8_Colin/dataset/images/train
+test: /Users/ayoub/Desktop/YOLOV8_Colin/dataset/images/train
+
+# Classes
+nc: 1  
+names: ['text']  
