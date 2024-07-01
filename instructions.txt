@@ -1,0 +1,26 @@
+
+Etapes Jean Zay
+
+Login
+$ ssh your_login@jean-zay.idris.fr
+
+Créer l’environnement
+module load anaconda-py3/2021.05  
+conda create -n Colin1 python=3.8  
+conda activate myenv              
+pip install -r requirements.txt  
+conda deactivate                
+
+Test Interactif :
+
+Demande d’une session :
+$ salloc --nodes=1 --ntasks=1 --gres=gpu:1 --time=01:00:00
+
+
+Activer l’environnement :
+$ module load anaconda-py3/2021.05  
+$ source activate myenv      
+
+$ python train_model.py
+
+$ exit
